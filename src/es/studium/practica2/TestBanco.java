@@ -1,9 +1,17 @@
 package es.studium.practica2;
 
+/**
+ * Clase Principal de mi programa.
+ * @author Alberto Calero
+ *
+ */
 public class TestBanco {
 
 	private static final String LA_CUENTA_DE = "La cuenta de ";
-
+	/**
+	 * Método principal del programa.
+	 * @param args
+	 */
 	public static void main(String[] args) {
 		/* Antonio y Beatriz se hacen clientes del banco */
 		Cliente antonio = new Cliente("123456789Z", "Antonio Alonso", "Av. Pueblo Saharaui, s/n");
